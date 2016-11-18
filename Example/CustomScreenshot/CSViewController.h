@@ -7,7 +7,9 @@
 //
 
 @import UIKit;
+#import <CustomScreenshot/CustomScreenshot.h>
 
-@interface CSViewController : UIViewController
+
+@interface CSViewController : UIViewController <CustomScreenshotDelegate>
 
 @end

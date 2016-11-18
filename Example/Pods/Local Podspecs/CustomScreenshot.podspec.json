@@ -1,9 +1,9 @@
 {
   "name": "CustomScreenshot",
   "version": "0.1.0",
-  "summary": "A short description of CustomScreenshot.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/CustomScreenshot",
+  "summary": "Capture user screenshots, apply a small watermark, and prompt users to share them",
+  "description": "Capture user screenshots, apply a small watermark, and prompt users to share them to various sites",
+  "homepage": "https://github.com/reallabs/CustomScreenshot",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "JJ Maxwell": "jj@upcast.io"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/CustomScreenshot.git",
+    "git": "https://github.com/reallabs/CustomScreenshot.git",
     "tag": "0.1.0"
   },
   "platforms": {
