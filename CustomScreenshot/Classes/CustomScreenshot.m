@@ -46,7 +46,6 @@
 }
 
 - (void) setWatermarkImage:(UIImage *)watermarkImage watermarkFrame:(CGRect)watermarkFrame {
-    
     self.watermarkImage = watermarkImage;
     self.watermarkFrame = watermarkFrame;
 }
@@ -74,7 +73,7 @@
     UIImage *screenshotImage = [self getScreenshot];
     UIImage *processedImage = [self addWatermark:self.watermarkImage toImage:screenshotImage];
     
-    [_customScreenshotDelegate screenshotReturned:processedImage];
+    [_customScreenshotDelegate watermarkedScreenshotReturned:processedImage];
 }
 
 -(UIImage *) getScreenshot {
