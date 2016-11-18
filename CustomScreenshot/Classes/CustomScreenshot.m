@@ -53,10 +53,6 @@
 
 
 -(void) handleScreeshot:(NSNotification *)note {
-    //Get the screenshot first
-    CGRect rect = [[UIScreen mainScreen] bounds];
-    CGSize imageSize = rect.size;
-    
     if(self.watermarkImage) {
         [self returnScreenshotWithWatermark];
     } else {
