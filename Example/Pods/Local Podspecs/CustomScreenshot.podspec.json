@@ -1,0 +1,22 @@
+{
+  "name": "CustomScreenshot",
+  "version": "0.1.0",
+  "summary": "A short description of CustomScreenshot.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CustomScreenshot",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JJ Maxwell": "jj@upcast.io"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CustomScreenshot.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CustomScreenshot/Classes/**/*"
+}

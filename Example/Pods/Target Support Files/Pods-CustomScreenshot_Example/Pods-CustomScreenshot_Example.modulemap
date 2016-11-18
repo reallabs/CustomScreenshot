@@ -1,0 +1,6 @@
+framework module Pods_CustomScreenshot_Example {
+  umbrella header "Pods-CustomScreenshot_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

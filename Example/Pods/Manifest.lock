@@ -1,0 +1,16 @@
+PODS:
+  - CustomScreenshot (0.1.0)
+
+DEPENDENCIES:
+  - CustomScreenshot (from `../`)
+
+EXTERNAL SOURCES:
+  CustomScreenshot:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CustomScreenshot: 959d27969c01da41002383ea4c02bc3b4f00a3ce
+
+PODFILE CHECKSUM: cc6ec2f7c202a9836dbe5eb167d9380dc9cee352
+
+COCOAPODS: 1.1.1
