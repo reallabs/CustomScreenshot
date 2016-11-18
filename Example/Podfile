@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CustomScreenshot_Example' do
+  pod 'CustomScreenshot', :path => '../'
+
+  target 'CustomScreenshot_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
