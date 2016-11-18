@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomScreenshot'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Capture user screenshots, apply a small watermark, and prompt users to share them'
 
 # This description is used to generate tags and improve search results.
