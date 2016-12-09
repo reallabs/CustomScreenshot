@@ -7,7 +7,7 @@
 //
 
 #import "CustomScreenshot.h"
-
+OBJC_EXTERN UIImage *_UICreateScreenUIImage(void);
 
 @interface CustomScreenshot () {}
 
@@ -77,23 +77,7 @@
 }
 
 -(UIImage *) getScreenshot {
-    //Get the screenshot first
-    // create graphics context with screen size
-    CGRect screenRect = [[UIScreen mainScreen] bounds];
-    UIGraphicsBeginImageContext(screenRect.size);
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    [[UIColor blackColor] set];
-    CGContextFillRect(ctx, screenRect);
-    
-    // grab reference to our window
-    UIWindow *window = [UIApplication sharedApplication].keyWindow;
-    
-    // transfer content into our context
-    [window.layer renderInContext:ctx];
-    UIImage *screengrab = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    return screengrab;
+    return _UICreateScreenUIImage();
 }
 
 

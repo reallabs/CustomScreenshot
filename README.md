@@ -9,7 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Usage
+
+CustomScreenshot is a pod file that listens for screenshots, captures them and returns a watermarked image which can be used to prompt the user to send friends.
 
 ## Installation
 
